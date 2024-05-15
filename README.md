@@ -1,13 +1,15 @@
 
-# Library System
+# Library Managmenet System
 
-this the simple sysetm of library system managmenet, so user can register in sysetm and borrowing a book with simple CRUD Operation 
+This the simple sysetm of Library Managmenet System , so user can register in sysetm and borrowing a book with simple CRUD Operation 
 
-1- make database with name Library-Management-System in sql branch or phpMyAdmin
+1- Make database with name Library-Management-System in sql branch or phpMyAdmin
 
-2- run project
+2- Run project
 
-3- make register with any user you want and take the token to access the other API
+3- register with any user you want and take the token to access the other API
+
+hint: i will attach the json file of postman
 
 
 ## Badges
