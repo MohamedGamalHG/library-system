@@ -1,7 +1,7 @@
 
 # Library Managmenet System
 
-This the simple sysetm of Library Managmenet System , so user can register in sysetm and borrowing a book with simple CRUD Operation 
+This the simple project for Library Managmenet System , so user can register in sysetm and borrowing a book with simple CRUD Operations 
 
 1- Make database with name Library-Management-System in sql branch or phpMyAdmin
 
