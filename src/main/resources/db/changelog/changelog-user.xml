@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="users_1" author="mohamed">
+        <createTable tableName="users">
+            <column name="Id" type="bigint" autoIncrement="true">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="Client_PK"/>
+            </column>
+            <column name="username" type="varchar(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="password" type="varchar(100)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="isAccountNonExpired" type="boolean">
+                <constraints nullable="true"/>
+            </column>
+            <column name="isAccountNonLocked" type="boolean">
+                <constraints nullable="true"/>
+            </column>
+            <column name="isCredentialsNonExpired" type="boolean">
+                <constraints nullable="true"/>
+            </column>
+            <column name="isEnabled" type="boolean">
+                <constraints nullable="true"/>
+            </column>
+            <column name="createdBy" type="varchar(100)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="modifiedBy" type="varchar(100)">
+                <constraints nullable="true"/>
+            </column>
+            <column name="created_at" type="datetime">
+                <constraints nullable="true"/>
+            </column>
+            <column name="updated_at" type="datetime">
+                <constraints nullable="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>
